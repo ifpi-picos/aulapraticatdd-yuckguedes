@@ -10,4 +10,7 @@ class Dollar extends Money {
         return new Dollar(amount * multiplier);
     }
      
+    Money times(int multiplier)  {
+        return new Dollar(amount * multiplier);
+     }
  }	
